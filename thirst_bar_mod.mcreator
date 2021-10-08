@@ -1,7 +1,14 @@
 {
   "id_map": {},
   "mod_elements": [],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "water_amount",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "10.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {}
