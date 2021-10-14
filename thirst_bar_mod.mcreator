@@ -1,6 +1,16 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EmptyBarOverlay",
+      "type": "overlay",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_bar_overlay"
+    }
+  ],
   "variable_elements": [
     {
       "name": "water_amount",
