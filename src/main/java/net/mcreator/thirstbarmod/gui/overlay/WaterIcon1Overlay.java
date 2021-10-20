@@ -21,7 +21,7 @@ import com.mojang.blaze3d.platform.GlStateManager;
 import com.google.common.collect.ImmutableMap;
 
 @Mod.EventBusSubscriber
-public class EmptyBarOverlayOverlay {
+public class WaterIcon1Overlay {
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent(priority = EventPriority.NORMAL)
 	public static void eventHandler(RenderGameOverlayEvent.Post event) {
@@ -51,9 +51,11 @@ public class EmptyBarOverlayOverlay {
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 			RenderSystem.disableAlphaTest();
-			if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
-				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/barempty.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 9, posY + 68, 0, 0, 80, 8, 80, 8);
+			if (true) {
+				if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
+					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/watericon.png"));
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 81, posY + 68, 0, 0, 8, 8, 8, 8);
+				}
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();

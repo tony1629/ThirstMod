@@ -9,6 +9,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "empty_bar_overlay"
+    },
+    {
+      "name": "EmptyBarOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_bar_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterIcon1",
+      "type": "overlay",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_1"
+    },
+    {
+      "name": "WaterIcon2",
+      "type": "overlay",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_2"
     }
   ],
   "variable_elements": [
