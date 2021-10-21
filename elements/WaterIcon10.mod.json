@@ -7,11 +7,14 @@
       {
         "type": "image",
         "data": {
-          "image": "barempty.png",
+          "image": "watericon.png",
           "use1Xscale": true,
-          "name": "barempty.png",
-          "x": 222,
-          "y": 201
+          "displayCondition": {
+            "name": "EmptyBarOverlayDisplayOverlayIngame"
+          },
+          "name": "watericon.png",
+          "x": 213,
+          "y": 192
         }
       }
     ],

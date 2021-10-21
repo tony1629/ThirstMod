@@ -45,6 +45,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_2"
+    },
+    {
+      "name": "WaterIcon3",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_3"
+    },
+    {
+      "name": "WaterIcon4",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_4"
+    },
+    {
+      "name": "WaterIcon5",
+      "type": "overlay",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_5"
+    },
+    {
+      "name": "WaterIcon6",
+      "type": "overlay",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_6"
+    },
+    {
+      "name": "WaterIcon7",
+      "type": "overlay",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_7"
+    },
+    {
+      "name": "WaterIcon8",
+      "type": "overlay",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_8"
+    },
+    {
+      "name": "WaterIcon9",
+      "type": "overlay",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_9"
+    },
+    {
+      "name": "WaterIcon10",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_icon_10"
     }
   ],
   "variable_elements": [

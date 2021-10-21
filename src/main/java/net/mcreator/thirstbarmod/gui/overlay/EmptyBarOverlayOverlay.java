@@ -1,24 +1,7 @@
 
 package net.mcreator.thirstbarmod.gui.overlay;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.client.event.RenderGameOverlayEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.Minecraft;
-
 import net.mcreator.thirstbarmod.procedures.EmptyBarOverlayDisplayOverlayIngameProcedure;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.platform.GlStateManager;
-
-import com.google.common.collect.ImmutableMap;
 
 @Mod.EventBusSubscriber
 public class EmptyBarOverlayOverlay {
@@ -53,7 +36,7 @@ public class EmptyBarOverlayOverlay {
 			RenderSystem.disableAlphaTest();
 			if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/barempty.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 9, posY + 68, 0, 0, 80, 8, 80, 8);
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 9, posY + 81, 0, 0, 80, 8, 80, 8);
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();

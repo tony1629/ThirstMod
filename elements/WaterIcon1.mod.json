@@ -14,17 +14,20 @@
           },
           "name": "watericon.png",
           "x": 294,
-          "y": 188
+          "y": 192
         }
       }
     ],
     "baseTexture": "",
     "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "EmptyBarOverlayDisplayOverlayIngame"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 11,
-      "oy": 15,
+      "oy": 23,
       "snapOnGrid": true
     }
   }

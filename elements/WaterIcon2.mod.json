@@ -14,7 +14,7 @@
           },
           "name": "watericon.png",
           "x": 285,
-          "y": 188
+          "y": 192
         }
       }
     ],
@@ -27,7 +27,7 @@
       "sx": 18,
       "sy": 18,
       "ox": 11,
-      "oy": 15,
+      "oy": 23,
       "snapOnGrid": true
     }
   }

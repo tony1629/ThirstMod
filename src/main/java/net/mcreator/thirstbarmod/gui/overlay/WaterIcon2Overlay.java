@@ -1,24 +1,7 @@
 
 package net.mcreator.thirstbarmod.gui.overlay;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.client.event.RenderGameOverlayEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.Minecraft;
-
 import net.mcreator.thirstbarmod.procedures.EmptyBarOverlayDisplayOverlayIngameProcedure;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.platform.GlStateManager;
-
-import com.google.common.collect.ImmutableMap;
 
 @Mod.EventBusSubscriber
 public class WaterIcon2Overlay {
@@ -54,7 +37,7 @@ public class WaterIcon2Overlay {
 			if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/watericon.png"));
-					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 72, posY + 68, 0, 0, 8, 8, 8, 8);
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 72, posY + 72, 0, 0, 8, 8, 8, 8);
 				}
 			}
 			RenderSystem.depthMask(true);
