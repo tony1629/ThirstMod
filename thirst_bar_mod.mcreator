@@ -5,7 +5,7 @@
       "name": "EmptyBarOverlay",
       "type": "overlay",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "empty_bar_overlay"
@@ -24,22 +24,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -48,7 +32,7 @@
       "name": "WaterIcon1",
       "type": "overlay",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_1"
@@ -57,7 +41,7 @@
       "name": "WaterIcon2",
       "type": "overlay",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_2"
@@ -66,7 +50,7 @@
       "name": "WaterIcon3",
       "type": "overlay",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_3"
@@ -75,7 +59,7 @@
       "name": "WaterIcon4",
       "type": "overlay",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_4"
@@ -84,7 +68,7 @@
       "name": "WaterIcon5",
       "type": "overlay",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_5"
@@ -93,7 +77,7 @@
       "name": "WaterIcon6",
       "type": "overlay",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_6"
@@ -102,7 +86,7 @@
       "name": "WaterIcon7",
       "type": "overlay",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_7"
@@ -111,7 +95,7 @@
       "name": "WaterIcon8",
       "type": "overlay",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_8"
@@ -120,7 +104,7 @@
       "name": "WaterIcon9",
       "type": "overlay",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_9"
@@ -129,7 +113,7 @@
       "name": "WaterIcon10",
       "type": "overlay",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_10"
@@ -165,6 +149,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thirstbarmod",
     "lockBaseModFiles": false
   },
