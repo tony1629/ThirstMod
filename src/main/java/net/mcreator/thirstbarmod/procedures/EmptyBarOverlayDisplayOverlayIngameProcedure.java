@@ -1,5 +1,7 @@
 package net.mcreator.thirstbarmod.procedures;
 
+import net.minecraft.entity.Entity;
+
 import net.mcreator.thirstbarmod.ThirstBarModMod;
 
 import java.util.Map;
