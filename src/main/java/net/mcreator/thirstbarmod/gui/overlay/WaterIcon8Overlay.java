@@ -54,7 +54,7 @@ public class WaterIcon8Overlay {
 			if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 					Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/watericon.png"));
-					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 18, posY + 81, 0, 0, 8, 8, 8, 8);
+					Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 18, posY + 72, 0, 0, 8, 8, 8, 8);
 				}
 			}
 			RenderSystem.depthMask(true);
