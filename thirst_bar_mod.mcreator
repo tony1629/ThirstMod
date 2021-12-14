@@ -117,6 +117,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "water_icon_10"
+    },
+    {
+      "name": "Icon1Procedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "icon_1_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
