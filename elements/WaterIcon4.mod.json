@@ -13,8 +13,8 @@
             "name": "EmptyBarOverlayDisplayOverlayIngame"
           },
           "name": "watericon.png",
-          "x": 267,
-          "y": 201
+          "x": 271,
+          "y": 207
         }
       }
     ],
@@ -24,10 +24,10 @@
       "name": "EmptyBarOverlayDisplayOverlayIngame"
     },
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 23,
+      "sx": 16,
+      "sy": 16,
+      "ox": 13,
+      "oy": 28,
       "snapOnGrid": true
     }
   }

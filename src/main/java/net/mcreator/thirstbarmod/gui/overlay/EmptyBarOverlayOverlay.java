@@ -53,7 +53,7 @@ public class EmptyBarOverlayOverlay {
 			RenderSystem.disableAlphaTest();
 			if (EmptyBarOverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("thirst_bar_mod:textures/barempty.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 9, posY + 81, 0, 0, 80, 8, 80, 8);
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 10, posY + 87, 0, 0, 80, 8, 80, 8);
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();

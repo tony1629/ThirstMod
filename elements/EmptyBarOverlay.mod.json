@@ -10,8 +10,8 @@
           "image": "barempty.png",
           "use1Xscale": true,
           "name": "barempty.png",
-          "x": 222,
-          "y": 201
+          "x": 223,
+          "y": 207
         }
       }
     ],
@@ -21,10 +21,10 @@
       "name": "EmptyBarOverlayDisplayOverlayIngame"
     },
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 23,
+      "sx": 16,
+      "sy": 16,
+      "ox": 13,
+      "oy": 28,
       "snapOnGrid": true
     }
   }

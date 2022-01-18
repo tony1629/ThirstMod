@@ -41,13 +41,13 @@ public class Icon1ProcedureProcedure {
 			return false;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity.getPersistentData().getDouble("ThirstBarTimer")) == 0)) {
-			return (false);
-		}
-		if (((entity.getPersistentData().getDouble("ThirstBarTimer")) == 0)) {
-			entity.getPersistentData().putDouble("ThirstBarTimer", 40);
+		if (((entity.getPersistentData().getDouble("ThirstBarTimer1")) == 0)) {
+			entity.getPersistentData().putDouble("ThirstBarTimer1", 200);
 		} else {
-			entity.getPersistentData().putDouble("ThirstBarTimer", ((entity.getPersistentData().getDouble("ThirstBarTimer")) - 1));
+			entity.getPersistentData().putDouble("ThirstBarTimer1", ((entity.getPersistentData().getDouble("ThirstBarTimer1")) - 1));
+		}
+		if (((entity.getPersistentData().getDouble("ThirstBarTimer1")) == 0)) {
+			return (false);
 		}
 		return (true);
 	}
